@@ -63,7 +63,7 @@ class HypeBot(commands.Cog):
 
 
     @commands.command(aliases=['hugs'])
-    async def hug(self, ctx):
+    async def hug2(self, ctx):
         await ctx.send(f'(hugs {ctx.author.mention})')
         return
 
